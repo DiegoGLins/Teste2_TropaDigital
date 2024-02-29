@@ -42,10 +42,39 @@ body {
   z-index: 5;
   width: 690px;
   height: 78%;
-  right: 24%;
-  overflow: auto;
   display: flex;
-  align-self: last baseline
+  right: 130px;
+  align-self: last baseline;
+}
+
+@media screen and (max-width: 1280px) {
+  .styleLaptop {
+    right: 105px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .styleLaptop {
+    right: 90px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .styleLaptop {
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .styleLaptop {
+    right: 90px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .styleLaptop {
+    right: 80px;
+  }
 }
 
 .logo {
