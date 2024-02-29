@@ -1,27 +1,14 @@
-import styled from "styled-components"
+import * as B from './BoxFrameStyle'
 import CardFrame from "./CardFrame"
 import { cardArray } from "./cardArray"
 
-const BoxFrameContainer = styled.div`
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-content: center;
-gap:20px;
-flex-flow: wrap;
-padding-bottom: 50px;
-position: relative;
-z-index: -3
-`
-
-
 const BoxFrame: React.FC = () => {
     return (
-        <BoxFrameContainer>
+        <B.BoxFrameStyle>
             {cardArray.map((item) => (
-                <CardFrame key={item.image} image={item.image} text={item.text} title={item.title} />
+                <CardFrame key={item.image} image={item.image} text={item.text} title={item.title} icon={item.icon} view={item.view} />
             ))}
-        </BoxFrameContainer>
+        </B.BoxFrameStyle>
     )
 }
 

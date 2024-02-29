@@ -126,34 +126,62 @@ body {
   font-size: 12px;
   font-weight: 400;
   color: #000;
+  padding-bottom: 15px;
 }
 
-.BoxFrameContainer {
+.boxPreview {
+  width: 101px;
+  height: 30px;
+  background-color: #000;
+  opacity: 50%;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  bottom: 185px;
+  left: 365px;
+  position: relative;
+  color: #fff;
+  padding: 4px 0px 4px 4px;
+}
+
+.textPreview {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #fff;
+}
+
+.BoxFrameStyle {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 @media screen and (max-width: 1280px) {
-  .BoxFrameContainer {
+  .BoxFrameStyle {
     justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 960px) {
-  .BoxFrameContainer {
+  .BoxFrameStyle {
     justify-content: center;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .BoxFrameContainer {
+  .BoxFrameStyle {
     justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .BoxFrameContainer {
+  .BoxFrameStyle {
     justify-content: center;
   }
 }
