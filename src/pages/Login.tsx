@@ -41,7 +41,7 @@ const Login = () => {
             </Grid>
             <Grid item component={'section'} xs={5} sx={{
                 background: `url(${backgroundStars})center/cover no-repeat`,
-                display: "inline-grid",
+                display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
                 minHeight: "100%",
