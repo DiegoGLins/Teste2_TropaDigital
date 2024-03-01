@@ -35,7 +35,7 @@ const Login = () => {
                     </Grid>
                     <p className="titleWelcome" style={{ fontFamily: 'Advent Pro, sans-serif' }}>Bem vindo ao <span style={{ color: '#ff6c22' }}>painel</span></p>
                     <TextField onChange={(e) => setEmail(e.target.value)} placeholder='Digite seu e-mail' value={email} type='email' variant="outlined" fullWidth />
-                    <TextField onChange={(e) => setPassword(e.target.value)} value={password} sx={{ paddingTop: '18px' }} placeholder="Digite sua senha" type={showPassword ? 'text' : 'password'} variant="outlined" fullWidth InputProps={{ endAdornment: <InputAdornment className="buttonEyes" position="end"><button className='buttonEyes' onClick={passwordVisibility}>{showPassword ? <img style={{ color: '#aaaaaa' }} src={eyeOn} /> : <img style={{ color: '#aaaaaa' }} src={eyeOff} />}</button></InputAdornment> }} />
+                    <TextField onChange={(e) => setPassword(e.target.value)} value={password} sx={{ paddingTop: '18px' }} placeholder="Digite sua senha" type={showPassword ? 'text' : 'password'} variant="outlined" fullWidth InputProps={{ endAdornment: <InputAdornment className="buttonEyes" position="end"><button className='buttonEyes' onClick={passwordVisibility}>{showPassword ? <img style={{ color: '#aaaaaa' }} src={eyeOff} /> : <img style={{ color: '#aaaaaa' }} src={eyeOn} />}</button></InputAdornment> }} />
                     <button onClick={handleLogin} className="buttonLogin">Acessar</button>
                 </Grid>
             </Grid>
