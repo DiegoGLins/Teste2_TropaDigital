@@ -9,9 +9,8 @@ A parte lógica funcional de captura dos eventos nos inputs na tela de login nã
 </div>
  <br/>
 <div align='center' style={display: 'flex', alignItems='center'}>
-  <p float='center' style={display:'flex',  justify-content: space-between}>
+  <p float='center' style={display:'flex',  justify-content: 'space-between'}>
     <img src="https://github.com/DiegoGLins/Teste2_TropaDigital/assets/107010634/7f126b10-fd7a-466b-bafb-0adea1506e8c" alt="login" width="40%">
-   <br/>
     <img src="https://github.com/DiegoGLins/Teste2_TropaDigital/assets/107010634/c8faa6e1-0242-4086-8e8f-431a891c5353" alt="cadastro" width="40%" heigth='80%'> 
   </p>
 </div>
