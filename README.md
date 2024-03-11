@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+<div>
+ <p>
+  Este repositório é a construção de algumas telas como avaliação de um processo seletivo na empresa Tropa Digital.
+A parte lógica funcional de captura dos eventos nos inputs na tela de login não foram implementadas, pois o objetivo era tão somente reproduzir a parte visual de cada tela baseado num protótipo do Figma.
+ </p>
+ <p>
+  O código foi construído em React.JS com typescript. Foi utilizado também MaterialUI em alguns componentes e CSS para estilizações mais personalizadas
+ </p>
+</div>
+ <br/>
+<div align='center' style={display: 'flex', alignItems='center'}>
+  <p float='center'>
+    <img src="https://github.com/DiegoGLins/Teste2_TropaDigital/assets/107010634/7f126b10-fd7a-466b-bafb-0adea1506e8c" alt="login" width="40%" style={margin-right: 15px}>
+    <img src="https://github.com/DiegoGLins/Teste2_TropaDigital/assets/107010634/c8faa6e1-0242-4086-8e8f-431a891c5353" alt="cadastro" width="40%" heigth='80%'> 
+  </p>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
